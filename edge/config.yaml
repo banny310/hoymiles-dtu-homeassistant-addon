@@ -1,0 +1,30 @@
+name: "Home Assistant Add-on: Hoymiles DTU Solar"
+description: "An application to read Hoymiles Gateway Solar Data using direct communication with Hoymiles DTU"
+image: "banny310/hoymiles-dtu-{arch}"
+version: "0.1.2"
+slug: "hoymiles-dtu"
+arch:
+  - aarch64
+  - amd64
+  - armv7
+startup: application
+boot: auto
+hassio_api: false
+homeassistant_api: false
+hassio_role: default
+devicetree: false
+services:
+  - mqtt:need
+ingress: false
+host_network: true
+panel_icon: mdi:solar-power
+panel_title: "HoyMiles Solar Data Gateway"
+panel_admin: false
+options:
+  dtu:
+    host: "Hoymiles DTU internal network IP, ex.: 192.168.1.5"
+    port: "Hoymiles DTU internal network IP, default.: 10081"
+schema:
+  dtu:
+    host: str
+    port: int

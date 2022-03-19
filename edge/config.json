@@ -1,8 +1,8 @@
 {
-  "name": "Home Assistant Add-on: Hoymiles DTU Solar",
-  "description": "An application to read Hoymiles Gateway Solar Data using direct communication with Hoymiles DTU",
+  "name": "Hoymiles DTU Solar: Home Assistant Add-on",
+  "description": "Get solar data using direct communication with Hoymiles DTU",
   "image": "banny310/hoymiles-dtu-{arch}",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "slug": "hoymiles-dtu",
   "arch": [
     "aarch64",

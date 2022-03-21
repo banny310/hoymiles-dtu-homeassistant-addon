@@ -1,9 +1,15 @@
 # CHANGELOG
 
+## 0.1.8
+
+    - migrate ha autodiscovery twig to POJO model
+
 ## 0.1.7
+
     - fixes in message logging
 
 ## 0.1.6
+
     - fixes in config
 
 ## 0.1.5

@@ -4,6 +4,11 @@ An application to read Hoymiles Gateway Solar Data using direct communication wi
 
 I have done this addon to integrate my solar system data with our [Home Assistant](https://www.home-assistant.io/) instance.
 
+## How it works
+
+Add-on sets connection with Hoymiles DTU unit and starts listening for incoming data.
+When new data is received add-on will transform it and push to mqtt broker
+
 ## Installation
 
 1. Copy this repository url https://github.com/banny310/hoymiles-dtu-homeassistant-addon

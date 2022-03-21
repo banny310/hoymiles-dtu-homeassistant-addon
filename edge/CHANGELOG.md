@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.1.6
+    - fixes in config
+
 ## 0.1.5
 
     - fixes in connectivity and autoreconnect

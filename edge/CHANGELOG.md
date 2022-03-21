@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.1.7
+    - fixes in message logging
+
 ## 0.1.6
     - fixes in config
 

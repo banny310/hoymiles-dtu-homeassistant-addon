@@ -1,13 +1,19 @@
 
 # Hoymiles DTU Solar Data Gateway Add-on
+
 An application to read Hoymiles Gateway Solar Data using direct communication with Hoymiles DTU
 
 I have done this addon to integrate my solar system data with our [Home Assistant](https://www.home-assistant.io/) instance.
 
+<img src="https://github.com/banny310/hoymiles-dtu-homeassistant-addon/raw/master/edge/dtu_ha.png" alt="" width="200" />
+
 ## How it works
 
 Add-on sets connection with Hoymiles DTU unit and starts listening for incoming data.
-When new data is received add-on will transform it and push to mqtt broker
+When new data is received add-on will transform it and push to mqtt broker.
+
+On start add-on changes server send time configuration on dtu from 15 minutes (dtu default) to 1 minute.
+After that data is refreshed every minute in Home Assistant and native Hoymiles dashboard also
 
 ## Installation
 
@@ -16,7 +22,7 @@ When new data is received add-on will transform it and push to mqtt broker
 
 ## Notice
 
-Currently, tested only with DTU-Pro
+Currently, tested only with DTU-Pro (sw: V00.02.08, V00.02.10)
 
 #### Licence
 

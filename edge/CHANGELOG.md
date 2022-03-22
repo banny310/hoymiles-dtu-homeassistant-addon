@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.2.0
+
+    - many small improvements
+
 ## 0.1.9
 
     - fixes in autodiscovery

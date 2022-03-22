@@ -5,7 +5,7 @@ An application to read Hoymiles Gateway Solar Data using direct communication wi
 
 I have done this addon to integrate my solar system data with our [Home Assistant](https://www.home-assistant.io/) instance.
 
-<img src="https://github.com/banny310/hoymiles-dtu-homeassistant-addon/raw/master/edge/dtu_ha.png" alt="" width="200" />
+<img src="https://github.com/banny310/hoymiles-dtu-homeassistant-addon/raw/master/edge/img/dtu_ha.png" alt="" width="200" />
 
 ## How it works
 

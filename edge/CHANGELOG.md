@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 0.3.1
+    - automatic reconnection on connection lost
+
+## 0.3.0
+
+    - support for new message
+
 ## 0.2.0
 
     - many small improvements

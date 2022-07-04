@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.3.2
+    - fexes in reconnection
+
 ## 0.3.1
     - automatic reconnection on connection lost
 

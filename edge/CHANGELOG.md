@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 4.0.0
+    - major architecture change to challenge disconnections from DTU
+
 ## 0.3.2
     - fexes in reconnection
 

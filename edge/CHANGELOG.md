@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.5.0
+    - fixes for multi packet configurations
+
 ## 0.4.1
     - fix in 0 power for large installations
 

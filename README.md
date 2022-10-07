@@ -9,6 +9,9 @@ I have done this addon to integrate my solar system data with our [Home Assistan
 - data update interval 1 minute instead of default 15 minutes on global.hoymiles.com
 - detailed info from separate inverters (ex.: reactive power, power factor) and each panel individually
 
+## Cons:
+- tested only on DTU-Pro (see notice below)
+
 Screen from home assistant
 <img src="https://github.com/banny310/hoymiles-dtu-homeassistant-addon/raw/master/img/dtu_ha.png" alt="" width="800" />
 

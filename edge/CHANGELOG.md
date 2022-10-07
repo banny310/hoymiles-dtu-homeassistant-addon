@@ -1,21 +1,31 @@
 # CHANGELOG
 
+## 0.7.0
+
+    - improvements in automatic reconnections
+
 ## 0.6.0
+
     - added watchdog for DTU communication
 
 ## 0.5.0
+
     - fixes for multi packet configurations
 
 ## 0.4.1
+
     - fix in 0 power for large installations
 
 ## 0.4.0
+
     - major architecture change to challenge disconnections from DTU
 
 ## 0.3.2
+
     - fexes in reconnection
 
 ## 0.3.1
+
     - automatic reconnection on connection lost
 
 ## 0.3.0

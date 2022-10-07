@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.6.0
+    - added watchdog for DTU communication
+
 ## 0.5.0
     - fixes for multi packet configurations
 

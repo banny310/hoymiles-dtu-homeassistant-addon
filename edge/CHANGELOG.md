@@ -1,6 +1,9 @@
 # CHANGELOG
 
-## 4.0.0
+## 0.4.1
+    - fix in 0 power for large installations
+
+## 0.4.0
     - major architecture change to challenge disconnections from DTU
 
 ## 0.3.2

@@ -5,6 +5,11 @@ An application to read Hoymiles Gateway Solar Data using direct communication wi
 
 I have done this addon to integrate my solar system data with our [Home Assistant](https://www.home-assistant.io/) instance.
 
+## Pros:
+- data update interval 1 minute instead of default 15 minutes on global.hoymiles.com
+- detailed info from separate inverters (ex.: reactive power, power factor) and each panel individually
+
+Screen from home assistant
 <img src="https://github.com/banny310/hoymiles-dtu-homeassistant-addon/raw/master/img/dtu_ha.png" alt="" width="800" />
 
 ## How it works
@@ -20,9 +25,13 @@ After that data is refreshed every minute in Home Assistant and native Hoymiles 
 1. Copy this repository url https://github.com/banny310/hoymiles-dtu-homeassistant-addon
 2. Add as new repository in Home Assistant add-on store
 
-## Notice
+## Notice and Warning!
 
-Currently, tested only with DTU-Pro (sw: V00.02.08, V00.02.10)
+Currently, tested only with DTU-Pro:
+- hw: H09.01.02 
+- sw: V00.02.08, V00.02.10
+
+If you have a version other than those listed above, run it at your own risk!
 
 #### Licence
 

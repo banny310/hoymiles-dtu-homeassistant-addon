@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.7.2
+
+    - Fixes in time conversion
+
 ## 0.7.1
 
     - message time in logs (preparation to filter old messages)

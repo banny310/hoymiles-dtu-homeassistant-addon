@@ -28,14 +28,18 @@ After that data is refreshed every minute in Home Assistant and native Hoymiles 
 1. Copy this repository url https://github.com/banny310/hoymiles-dtu-homeassistant-addon
 2. Add as new repository in Home Assistant add-on store
 3. Install add-on
-4. Set DTU IP in config tab
+4. Set DTU ip address and port in config tab
+```
+host: 192.168.88.129
+port: 10081
+```
 5. Start add-on
 
 ## Notice and Warning!
 
 Currently, tested only with DTU-Pro:
 - hw: H09.01.02 
-- sw: V00.02.08, V00.02.10, V00.02.0F
+- sw: V00.02.08, V00.02.10, V00.02.15 (V00.02.0F)
 
 If you have a version other than those listed above, run it at your own risk!
 

@@ -1,8 +1,12 @@
 # CHANGELOG
 
+## 0.8.0
+
+    - discard metrics older than 5 minutes
+
 ## 0.7.2
 
-    - Fixes in time conversion
+    - fixes in time conversion
 
 ## 0.7.1
 

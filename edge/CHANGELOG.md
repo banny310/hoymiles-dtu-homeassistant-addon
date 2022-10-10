@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.7.1
+
+    - message time in logs (preparation to filter old messages)
+
 ## 0.7.0
 
     - improvements in automatic reconnections

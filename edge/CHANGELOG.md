@@ -1,7 +1,10 @@
 # CHANGELOG
 
-## 0.8.0
+## 0.9.0
+    - proper stop after error
+    - ability to override each config record
 
+## 0.8.0
     - discard metrics older than 5 minutes
 
 ## 0.7.2

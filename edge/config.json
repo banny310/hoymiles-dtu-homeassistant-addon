@@ -2,7 +2,7 @@
   "name": "Hoymiles DTU Solar: Home Assistant Add-on",
   "description": "Get solar data using direct communication with Hoymiles DTU",
   "image": "banny310/hoymiles-dtu-{arch}",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "slug": "hoymiles-dtu",
   "url": "https://github.com/banny310/hoymiles-dtu-homeassistant-addon",
   "arch": [
@@ -27,7 +27,7 @@
   "options": {
     "dtu": {
       "host": "Hoymiles DTU internal network IP, ex.: 192.168.1.5",
-      "port": "Hoymiles DTU internal network IP, default.: 10081"
+      "port": "Hoymiles DTU internal network port, default.: 10081"
     }
   },
   "schema": {

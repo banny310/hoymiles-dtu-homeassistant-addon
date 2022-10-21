@@ -30,10 +30,45 @@ After that data is refreshed every minute in Home Assistant and native Hoymiles 
 3. Install add-on
 4. Set DTU ip address and port in config tab
 ```
-host: 192.168.88.129
-port: 10081
+dtu:
+    host: 192.168.88.129
+    port: 10081
 ```
 5. Start add-on
+
+## Configuration
+
+An add-on full, default configuration is showed bellow\
+You may override that in home assistant yaml addon config (make sure you match structure)
+```
+dtu = {
+    host = 192.168.1.1
+    port = 10081
+    watchdog_timeout = 300              # Restart connection to DTU when nothing is received from DTU in period of time
+                                        # Useable in passive mode because sometimes communication stalls
+}
+mqtt = {
+    host = 192.168.1.2
+    port = 1883
+    username = xxx
+    password = xxx-password
+}
+app = {
+    store_messages_in_excel = false     # used to save received messages in excel format for debug purposes
+    mode = passive                      # add-on work strategy, values: [active, passive]
+                                        #   active    - addon continously pool DTU for statistics. 
+                                        #               Default every 1 minute
+                                        #   passive   - addon changes time interval with DTU send statistics to 
+                                                        hoymiles.com and starts passive listenting to outgoing communication               
+    mode_active = {
+        pull_interval = 60000           # time in mills between each metrics request from DTU
+    }
+    mode_passive = {
+        set_server_send_time = true     # change DTU configuration of report statistics time interval
+        server_send_time = 1            # report statistics to hoymiles.com time interval in minutes (dtu default: 15 minutes)
+    }
+}
+```
 
 ## Notice and Warning!
 

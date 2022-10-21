@@ -29,7 +29,7 @@ After that data is refreshed every minute in Home Assistant and native Hoymiles 
 2. Add as new repository in Home Assistant add-on store
 3. Install add-on
 4. Set DTU ip address and port in config tab
-```
+```yaml
 dtu:
     host: 192.168.88.129
     port: 10081
@@ -68,6 +68,15 @@ app = {
         server_send_time = 1            # report statistics to hoymiles.com time interval in minutes (dtu default: 15 minutes)
     }
 }
+```
+
+Example override of watchdog_timeout in yaml:
+
+```yaml
+dtu:
+    host: 192.168.88.129
+    port: 10081
+    watchdog_timeout: 600
 ```
 
 ## Notice and Warning!

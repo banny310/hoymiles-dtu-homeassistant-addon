@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.9.1
+    - hotfix in start script
+
 ## 0.9.0
     - proper stop after error
     - ability to override each config record

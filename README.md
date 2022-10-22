@@ -23,6 +23,16 @@ When new data is received add-on will transform it and push to mqtt broker.
 On start add-on changes server send time configuration on dtu from 15 minutes (dtu default) to 1 minute.
 After that data is refreshed every minute in Home Assistant and native Hoymiles dashboard also.
 
+## Dependencies
+
+- Hoymiles DTU (currently tested only on DTU-Pro)
+- Home Assistant with Mosquitto Add-on installed (MQTT)
+
+
+### Notice:
+> DTU must be connected to your local network by WIFI (not by LAN).\
+> Only on WIFI interface DTU can be accessed on port 10081
+
 ## Installation
 
 1. Copy this repository url https://github.com/banny310/hoymiles-dtu-homeassistant-addon

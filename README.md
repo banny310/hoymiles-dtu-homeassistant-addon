@@ -54,7 +54,7 @@ You may override that in home assistant yaml addon config (make sure you match s
 dtu = {
     host = 192.168.1.1
     port = 10081
-    watchdog_timeout = 300              # Restart connection to DTU when nothing is received from DTU in period of time
+    watchdog_timeout = 300              # Restart connection to DTU when nothing is received from DTU in period of time (seconds)
                                         # Useable in passive mode because sometimes communication stalls
 }
 mqtt = {
@@ -71,7 +71,7 @@ app = {
                                         #   passive   - addon changes time interval with DTU send statistics to 
                                                         hoymiles.com and starts passive listenting to outgoing communication               
     mode_active = {
-        pull_interval = 60000           # time in mills between each metrics request from DTU
+        pull_interval = 60              # time in seconds between each metrics request from DTU
     }
     mode_passive = {
         set_server_send_time = true     # change DTU configuration of report statistics time interval

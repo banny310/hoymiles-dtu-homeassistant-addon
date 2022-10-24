@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.9.3
+    - [breaking change] pull_interval now is in seconds (instead of mills)
+    - fixed ability to override each config record
+
 ## 0.9.2
     - hotfix in start script
 

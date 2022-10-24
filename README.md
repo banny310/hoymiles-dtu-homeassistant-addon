@@ -70,13 +70,13 @@ app = {
                                         #               Default every 1 minute
                                         #   passive   - addon changes time interval with DTU send statistics to 
                                                         hoymiles.com and starts passive listenting to outgoing communication               
-    mode_active = {
-        pull_interval = 60              # time in seconds between each metrics request from DTU
-    }
-    mode_passive = {
-        set_server_send_time = true     # change DTU configuration of report statistics time interval
-        server_send_time = 1            # report statistics to hoymiles.com time interval in minutes (dtu default: 15 minutes)
-    }
+}
+app_mode_active = {
+    pull_interval = 60                  # time in seconds between each metrics request from DTU
+}
+app_mode_passive = {
+    set_server_send_time = true         # change DTU configuration of report statistics time interval
+    server_send_time = 1                # report statistics to hoymiles.com time interval in minutes (dtu default: 15 minutes)
 }
 ```
 

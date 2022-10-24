@@ -44,14 +44,7 @@
     },
     "app": {
       "store_messages_in_excel": "bool?",
-      "mode": "list(active|passive)?",
-      "mode_active": {
-        "pull_interval": "int?"
-      },
-      "mode_passive": {
-        "set_server_send_time": "bool?",
-        "server_send_time": "int?"
-      }
+      "mode": "list(active|passive)?"
     }
   }
 }

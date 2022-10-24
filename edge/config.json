@@ -36,12 +36,6 @@
       "port": "port",
       "watchdog_timeout": "int?"
     },
-    "mqtt": {
-      "host": "str?",
-      "port": "port?",
-      "username": "str?",
-      "password": "str?"
-    },
     "app": {
       "store_messages_in_excel": "bool?",
       "mode": "list(active|passive)?"

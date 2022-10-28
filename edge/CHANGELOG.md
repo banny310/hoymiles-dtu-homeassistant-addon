@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.9.6
+    - default config update
+
 ## 0.9.5
     - stability improvements
 

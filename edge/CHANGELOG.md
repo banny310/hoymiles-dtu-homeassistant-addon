@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.9.5
+    - stability improvements
+
 ## 0.9.4
     - [breaking change] structure of config change because ha limits max depth to 2
 

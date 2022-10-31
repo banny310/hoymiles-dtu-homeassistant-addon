@@ -1,6 +1,9 @@
 # CHANGELOG
 
-# 0.9.7
+## 0.9.8
+    - automatic recovery from frame fragmentation
+
+## 0.9.7
     - discard malformed message when it comes second time
 
 ## 0.9.6

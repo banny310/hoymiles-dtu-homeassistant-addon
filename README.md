@@ -89,6 +89,15 @@ dtu:
     watchdog_timeout: 600
 ```
 
+## Troubleshooting
+
+- DTU only send stats when micros are producing energy. During night inverters are completely off. So if you installed add-on in the eventing, wait until tomorrow.
+- DTU must be connected by wifi (not by LAN). Only on Wifi interface port 10081 is open.
+- DTU must have AP network active (mode AP+STA). You must see network with SSID DTUP-12345678 and be able to connect to it.
+- Some of DTUs (with never software) does not send statistics over 10081.\
+To check that you can login to DTU with telnet `telnet <dtu-ip-address> 10081` and see communication. \
+Every minute there should something appear. If it is not, add-on won`t work.
+
 ## Notice and Warning!
 
 Currently, tested only with DTU-Pro:
